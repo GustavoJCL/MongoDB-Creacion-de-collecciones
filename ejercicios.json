@@ -1,0 +1,232 @@
+//ejercios 
+use ejercicios
+db.empleado.insert([{
+    "name":"John",
+    "minit":"B",
+    "lname":"Smith",
+    "san":"123456789",
+    "bdate":new Date("1985-01-09"),
+    "address":"731 Fordren, Houston, TX",
+    "sex":"M",
+    "salary":30000,
+    "Super_ssn":3123456789,
+    "dno":5
+},
+{
+    "name":"Franklin",
+    "minit":"T",
+    "lname":"Wong",
+    "san":"123456789",
+    "bdate":new Date("1955-12-08"),
+    "address":"638 Voss, Houston, TX",
+    "sex":"M",
+    "salary":40000,
+    "Super_ssn":3123456789,
+    "dno":5
+},
+{
+    "name":"Alicia",
+    "minit":"B",
+    "lname":"Zelaya",
+    "san":"123456789",
+    "bdate":new Date("1968-01-19"),
+    "address":"3321 Castle, Sring, TX",
+    "sex":"F",
+    "salary":25000,
+    "Super_ssn":3123456789,
+    "dno":4
+},
+{
+    "name":"Jennifer",
+    "minit":"S",
+    "lname":"Wallace",
+    "san":"123456789",
+    "bdate":new Date("1941-06-20"),
+    "address":"291 Berry, Bellaire, TX",
+    "sex":"F",
+    "salary":30000,
+    "Super_ssn":3123456789,
+    "dno":4
+},
+{
+    "name":"Ramesh",
+    "minit":"A",
+    "lname":"Naraya",
+    "san":"123456789",
+    "bdate":new Date("1962-09-15"),
+    "address":"975 Fire Oak, Humble, TX",
+    "sex":"M",
+    "salary":25000,
+    "Super_ssn":3123456789,
+    "dno":5
+},
+{
+    "name":"Joyce",
+    "minit":"A",
+    "lname":"English",
+    "san":"123456789",
+    "bdate":new Date("1972-07-31"),
+    "address":"5631 Rice, Houston, TX",
+    "sex":"F",
+    "salary":25000,
+    "Super_ssn":3123456789,
+    "dno":5
+},
+{
+    "name":"Ahmad",
+    "minit":"V",
+    "lname":"Jabbar",
+    "san":"123456789",
+    "bdate":new Date("1969-03-29"),
+    "address":"980 Dallas, Houston, TX",
+    "sex":"M",
+    "salary":25000,
+    "Super_ssn":3123456789,
+    "dno":4
+},
+{
+    "name":"James",
+    "minit":"E",
+    "lname":"Borg",
+    "san":"123456789",
+    "bdate":new Date("1937-11-10"),
+    "address":"450 Stone, Houston, TX",
+    "sex":"M",
+    "salary":55000,
+    "Super_ssn":3123456789,
+    "dno":1
+}])
+
+db.dependent.insert([
+    {
+        "essn":"123456789",
+        "dependent_name":"Alice",
+        "sex":"F",
+        "bdate": new Date("1986-04-05"),
+        "relationship":"Daughter"
+    },
+    {
+        "essn":"123456789",
+        "dependent_name":"Theodore",
+        "sex":"M",
+        "bdate":new Date("1983-10-25"),
+        "relationship":"son"
+    },
+    {
+        "essn":"123456789",
+        "dependent_name":"Joy",
+        "sex":"F",
+        "bdate":new Date("1958-05-03"),
+        "relationship":"Spouse"
+    },
+    {
+        "essn":"987654321",
+        "dependent_name":"Abner",
+        "sex":"M",
+        "bdate":new Date("1942-02-28"),
+        "relationship":"Spouse"
+    },
+    {
+        "essn":"123456789",
+        "dependent_name":"Michael",
+        "sex":"M",
+        "bdate":new Date("1988-01-04"),
+        "relationship":"Son"
+    },
+    {
+        "essn":"123456789",
+        "dependent_name":"Alice",
+        "sex":"F",
+        "bdate":new Date("1988-12-30"),
+        "relationship":"Daughter"
+    },
+    {
+        "essn":"123456789",
+        "dependent_name":"Elizabeth",
+        "sex":"F",
+        "bdate":new Date("1967-05-05"),
+        "relationship":"Spouse"
+    }
+])
+
+db.works_on.insert([
+    {
+        "essn":"123456789",
+        "pno":1,
+        "hours":32.5
+    },
+    {
+        "essn":"123456789",
+        "pno":2,
+        "hours":7.5
+    },
+    {
+        "essn":"666884444",
+        "pno":3,
+        "hours":40.0
+    },
+    {
+        "essn":"453453453",
+        "pno":1,
+        "hours":20.0
+    },
+    {
+        "essn":"453453453",
+        "pno":2,
+        "hours":20.0
+    },
+    {
+        "essn":"333445555",
+        "pno":2,
+        "hours":10.0
+    },
+    {
+        "essn":"333445555",
+        "pno":3,
+        "hours":10.0
+    },
+    {
+        "essn":"333445555",
+        "pno":10,
+        "hours":10.0
+    },
+    {
+        "essn":"333445555",
+        "pno":20,
+        "hours":10.0
+    },
+    {
+        "essn":"999887777",
+        "pno":30,
+        "hours":30.0
+    },
+    {
+        "essn":"999887777",
+        "pno":10,
+        "hours":10.0
+    },
+    {
+        "essn":"987987987",
+        "pno":10,
+        "hours":35.0
+    },
+    {
+        "essn":"987987987",
+        "pno":30,
+        "hours":5.0
+    },
+    {
+        "essn":"987987987",
+        "pno":30,
+        "hours":20.0
+    },
+    {
+        "essn":"987987987",
+        "pno":20,
+        "hours":15.0
+    },
+    {
+        "essn":"888665555",
+        "pno":20
+    }
+])
