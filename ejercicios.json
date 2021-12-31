@@ -93,7 +93,6 @@ db.empleado.insert([{
     "address":"450 Stone, Houston, TX",
     "sex":"M",
     "salary":55000,
-    "Super_ssn":3123456789,
     "dno":1
 }])
 
